@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Da Velha </title>
+
+    <!-- STYLES -->
+    <link rel="shortcut icon"
+        href="https://th.bing.com/th/id/OIP.U0iuO-rHTwnlYNEOkikcPwHaHa?w=214&h=214&c=7&r=0&o=5&pid=1.7"
+        type="image/x-icon">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+
+
+
+    <h1>Jogo da Velha </h1>
+
+
+    <div class="battlefield">
+
+        <div class="row">
+            <div id="0" class="square">
+            </div>
+            <div id="1" class="square">
+            </div>
+            <div id="2" class="square">
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="3" class="square"></div>
+            <div id="4" class="square"></div>
+            <div id="5" class="square"></div>
+        </div>
+
+        <div class="row">
+            <div id="6" class="square"></div>
+            <div id="7" class="square"></div>
+            <div id="8" class="square"></div>
+        </div>
+
+
+        <div class="restart">
+            <button id="restartButton" onclick="restartGame()">RESTART GAME</button>
+            <button id="restartScore" onclick="restartScore()"> RESTART SCORE</button>
+
+        </div>
+
+
+        <!-- teste -->
+        <div class="score">
+            <h2 id="player0">Player 0 : </h2>
+            <h2 id="player1">Player 1 : </h2>
+        </div>
+
+
+
+        <script src="./scripts/game.js"></script>
+        <script src="./scripts/interface.js"></script>
+
+</body>
+
+</html>
